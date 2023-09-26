@@ -1,13 +1,45 @@
 *{
     margin: 0px;
 }
+body{
+    background-color: rgb(27, 67, 244);
+}
+
+.arriba{
+    display: grid;
+    position: relative;
+    border-bottom: 2px solid rgb(1, 1, 98);
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.guardar{
+    border: 5px solid rgb(1, 1, 98);
+    width: 5px;
+    height: 5px;
+}
 
 .menu {
   display: grid;
-  background: blue;
+  background: rgb(27, 27, 225);
+  border-right: 1px solid rgb(1, 1, 98);
   color: bisque;
   width: 7em;
   height: 100vh;
   margin: 0;
   padding: 0%;
+}
+
+.inicio{
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
 }
