@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+}
+
+.menu {
+  display: grid;
+  background: blue;
+  color: bisque;
+  width: 7em;
+  height: 100vh;
+  margin: 0;
+  padding: 0%;
+}
